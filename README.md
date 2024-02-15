@@ -51,6 +51,7 @@ The project has the following file structure:
 </pre>
 
 ## Understanding the code
-* **Bootloader code(src/bootloader.boot.asm):** This file contains the assembly code for the bootloader. It initializes the system, interacts with the user, and prepares to load the kernel.
+- **Bootloader code(`src/bootloader.boot.asm`):** This file contains the assembly code for the bootloader. It initializes the system, interacts with the user, and prepares to load the kernel.
+- **Bootloader Structure (`src/structure.asm`)**: The `structure.asm` file outlines the basic structure of the bootloader code, including the entry point, main function, and essential components. It serves as a reference for understanding the overall organization of the bootloader code.
 ## Disclaimer
 This code is provided for educational purposes only. Use it at your own risk.
